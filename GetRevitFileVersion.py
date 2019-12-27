@@ -1,3 +1,5 @@
+#gets the Revit File Version from the active document
+
 import clr
 clr.AddReference("RevitAPI")
 from Autodesk.Revit.DB import *
