@@ -1,4 +1,4 @@
-#deletes Elements from the Revit file
+# deletes Elements from the Revit file
 
 import clr
 
