@@ -1,4 +1,5 @@
-#Gets all unused filters from the revit document and outputs them as a list
+#Gets all unused filters from the revit document and outputs them as a list.
+#Input as Bool. Acts as a refresh toggle.
 
 import clr
 clr.AddReference('ProtoGeometry')
