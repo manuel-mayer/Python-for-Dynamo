@@ -1,5 +1,4 @@
 #Based on a Nicklas Verdier Østergaard's script, nvo@niras.dk
-#https://github.com/Autodesk/revit-ifc/tree/0462f6861fe84066acc50fa06cfca3b1bdde0538/Source
 #Revised by Alban de Chasteigner
 
 import clr
