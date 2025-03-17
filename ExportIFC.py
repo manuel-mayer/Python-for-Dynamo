@@ -82,9 +82,9 @@ for i,v in enumerate(view):
         options.AddOption("ExportLinkedFiles", "false")             # exportiert Verlinkungen, funktioniert nicht, Modelle müssten im Hintergrund geöffnet werden
 
         #### Property Sets Tab ####
-        options.ExportBaseQuantities = exportbasequantities
+        options.ExportBaseQuantities = exportbasequantities             # BaseQuantities: Exportiert die Basismengen, immer einschalten
         options.AddOption("ExportInternalRevitPropertySets", "false")   # exportiert alle Revit-Eigenschaften an jedem Bauteil. Immer ausschalten
-        options.AddOption("ExportIFCCommonPropertySets","true")         # export IFC-Standard-Eigenschaften wie WallCommon: IsExternal, LoadBearing
+        options.AddOption("ExportIFCCommonPropertySets","true")         # exportiert IFC-Standard-Eigenschaften wie WallCommon: IsExternal, LoadBearing
         options.AddOption("ExportSchedulesAsPsets", "false")            # exportiert Parameter über Bauteillisten, nutzen wir nicht
         options.AddOption("ExportSpecificSchedules", "false")           # exportiert Parameter über Bauteillisten, nutzen wir nicht           
         options.AddOption("ExportUserDefinedPsets",userDefPsetBool)     # exportiert Parameter über eine Mappingdatei, Standard für jedes Projekt
