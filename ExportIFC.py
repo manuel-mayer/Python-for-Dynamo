@@ -1,5 +1,5 @@
-#Based on a Nicklas Verdier Østergaard's script, nvo@niras.dk
-#Revised by Alban de Chasteigner
+# Exports multiple 3D-views to IFC for hardcoding all inputs so ifc datadrops can be automated with 1 button.
+# Based on a Nicklas Verdier Østergaard's script, nvo@niras.dk, Revised by Alban de Chasteigner
 
 import clr
 clr.AddReference("RevitServices")
