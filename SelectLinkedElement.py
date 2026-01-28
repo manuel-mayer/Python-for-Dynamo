@@ -1,4 +1,4 @@
-// Lets the user select an element from a linked model
+# Lets the user select an element from a linked model
 
 import clr
 clr.AddReference('RevitAPI')
